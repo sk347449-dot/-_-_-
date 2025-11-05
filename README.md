@@ -114,7 +114,7 @@
                 ⭐ Google Drive Link: सुनिश्चित करें कि यह फ़ाइल Google Drive पर 'Anyone with the link' पर सेट है।
                 -->
                 <img id="card-image" 
-                     src="https://drive.google.com/uc?export=view&id=171vj2FfsT5-iDkT448D7CQ4WWIx_6D2q" 
+                     src="https://drive.google.com/file/d/1s7nPdHdDIgLtYMDpv3Y7Nqc0cFq8zMhi/view?usp=drivesdk" 
                      alt="शुभ विवाह कार्ड का फोटो" 
                      onerror="this.onerror=null;this.src='https://placehold.co/600x400/800000/ffffff?text=फोटो+उपलब्ध+नहीं';"
                      class="w-full h-auto rounded-md object-cover">
