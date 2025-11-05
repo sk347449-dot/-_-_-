@@ -108,10 +108,17 @@
                 <p class="text-sm text-gray-500">हम आपके आगमन की प्रतीक्षा कर रहे हैं।</p>
             </div>
 
-            <!-- Card Image Section -->
+            <!-- Card Image Section: Google Drive link integrated here -->
             <div class="img-container mx-auto mb-8 max-w-full">
-                <!-- IMPORTANT: In a real app, replace the placeholder URL below with a publicly hosted URL of your image. -->
-                <img src="https://drive.google.com/file/d/171vj2FfsT5-iDkT448D7CQ4WWIx_6D2q/view?usp=drivesdk" alt="शुभ विवाह कार्ड का फोटो" onerror="this.onerror=null;this.src='https://placehold.co/600x400/FFD700/800000?text=निमंत्रण+कार्ड+फोटो';this.style.filter='blur(1px)'" class="w-full h-auto rounded-md object-cover">
+                <!-- 
+                ⭐ Google Drive Link: सुनिश्चित करें कि यह फ़ाइल Google Drive पर 'Anyone with the link' पर सेट है।
+                -->
+                <img id="card-image" 
+                     src="https://drive.google.com/uc?export=view&id=171vj2FfsT5-iDkT448D7CQ4WWIx_6D2q" 
+                     alt="शुभ विवाह कार्ड का फोटो" 
+                     onerror="this.onerror=null;this.src='https://placehold.co/600x400/800000/ffffff?text=फोटो+उपलब्ध+नहीं';"
+                     class="w-full h-auto rounded-md object-cover">
+                
                 <p class="text-center text-xs text-gray-500 mt-2">उपलब्ध आमंत्रण कार्ड का दृश्य</p>
             </div>
             
@@ -203,11 +210,11 @@
 
             // 1. Construct the confirmation message
             const messageTemplate = 
-                `नमस्ते! मुझे आपका शुभ विवाह आमंत्रण प्राप्त हो गया है और मैंने इसे देख लिया है।\\n` +
-                `*पुष्टि विवरण:*\\n` +
-                `*नाम:* ${recipientName}\\n` +
-                `*पता:* ${recipientAddress}\\n` +
-                `मैं जल्दी ही आपको सूचित करूंगा/करूंगी कि मैं आ रहा/रही हूं।\\n` +
+                `नमस्ते! मुझे आपका शुभ विवाह आमंत्रण प्राप्त हो गया है और मैंने इसे देख लिया है।\n` +
+                `*पुष्टि विवरण:*\n` +
+                `*नाम:* ${recipientName}\n` +
+                `*पता:* ${recipientAddress}\n` +
+                `मैं जल्दी ही आपको सूचित करूंगा/करूंगी कि मैं आ रहा/रही हूं।\n` +
                 `🙏 शुभकामनाएं!`;
 
             // 2. URL-encode the message
