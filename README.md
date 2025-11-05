@@ -111,7 +111,7 @@
             <!-- Card Image Section -->
             <div class="img-container mx-auto mb-8 max-w-full">
                 <!-- IMPORTANT: In a real app, replace the placeholder URL below with a publicly hosted URL of your image. -->
-                <img src="uploaded:1000420789.jpg-828f92e9-c40e-4c2c-acc7-157434a47cf0" alt="शुभ विवाह कार्ड का फोटो" onerror="this.onerror=null;this.src='https://placehold.co/600x400/FFD700/800000?text=निमंत्रण+कार्ड+फोटो';this.style.filter='blur(1px)'" class="w-full h-auto rounded-md object-cover">
+                <img src="https://drive.google.com/file/d/171vj2FfsT5-iDkT448D7CQ4WWIx_6D2q/view?usp=drivesdk" alt="शुभ विवाह कार्ड का फोटो" onerror="this.onerror=null;this.src='https://placehold.co/600x400/FFD700/800000?text=निमंत्रण+कार्ड+फोटो';this.style.filter='blur(1px)'" class="w-full h-auto rounded-md object-cover">
                 <p class="text-center text-xs text-gray-500 mt-2">उपलब्ध आमंत्रण कार्ड का दृश्य</p>
             </div>
             
